@@ -26,14 +26,14 @@ void selection_sort(int *array, size_t size)
 		array[i] = array[iMin];
 		array[iMin] = temp;
 		/**
-		*for (k = 0; k < size; k++)
-		*{
-		*	printf("%d", array[k]);
-		*	if (k < size - 1)
-		*		printf(", ");
-	*	}
-	*	printf("\n");
-	*	*/
-		print_array(array,size);
+		 *for (k = 0; k < size; k++)
+		 *{
+		 *	printf("%d", array[k]);
+		 *	if (k < size - 1)
+		 *		printf(", ");
+		 *	}
+		 *	printf("\n");
+		 */
+		print_array(array, size);
 	}
 }
