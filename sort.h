@@ -22,4 +22,6 @@ void quick_sort(int *array, size_t size);
 void swap(int *a, int *b);
 size_t lomuto_partition(int *array, ssize_t low, ssize_t high, size_t size);
 void quicksort(int *array, ssize_t low, ssize_t high, size_t size);
+void merge(int *array, size_t size, int *left, size_t left_size, int *right, size_t right_size);
+void merge_sort(int *array, size_t size);
 #endif
